@@ -1,0 +1,72 @@
+.abonnements {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("../img/sitting-man-pulling-rope-min.jpg");
+    background-position: center;
+    background-size: cover;
+    .abonnements--header {
+        padding-left: 56px;
+        div {
+            z-index: 2;
+        }
+    }
+    .abonnements--header-title {
+        padding-top: 24px;
+    }
+    .abonnements--body {
+        padding-top: 56px;
+        padding-left: 56px;
+        padding-right: 56px;
+        gap: 24px;
+        div {
+            z-index: 2;
+        }
+    }
+    .abonnements--body-contents {
+        padding: 40px;
+        max-width: 32%;
+        backdrop-filter: blur(30px);
+        div {
+            z-index: 2;
+        }
+    }
+    .abonnements--body-title {
+        max-width: 50%;
+        padding-bottom: 16px;
+    }
+    .abonnements--body-member {
+        padding-top: 40px;
+    }
+    .abonnements--body-member-type {
+        padding-bottom: 12px;
+        text-transform: uppercase;
+    }
+    .abonnements--body-member-price {
+        text-transform: uppercase;
+        padding-bottom: 23px;
+    }
+    .abonnements--body-member .abonnements--body-member-benefit:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    .abonnements--body-member-benefit-text {
+        margin-left: 8px;
+    }
+    .abonnements--body-member-button {
+        background: black;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 14px 40px 14px 40px;
+    }
+}
+
+.abonnements::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000B2;
+    z-index: 1;
+}

@@ -1,0 +1,44 @@
+.termoignages{
+    padding: 112px;
+    background-color: #EF1607;
+    .termoignages--header{
+        max-width: 471px;
+    }
+    .termoignages--header-title {
+        padding-left: 0px;
+        padding-bottom: 32px;
+    }
+    .termoignages--header-title-text {
+        padding-top: 24px;
+    }
+    .termoignages--header-desc {
+        padding-left: 0px;
+        padding-right: 45px;
+        padding-bottom: 148px;
+    }
+    .termoignages--header-nav {
+        gap: 18px;
+    }
+    .termoignages--body {
+        padding: 56px;
+        max-width: 552px;
+        background-color: black;
+    }
+    .termoignages--body-name {
+        padding-right: 12px;
+        border-right: 1px solid white;
+        margin-right: 10px;
+    }
+    .termoignages--body-desc {
+        padding-top: 72px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 60px;
+    }
+    .termoignages--body-nav {
+        height: 1px;
+        .progress-bar {
+            background-color: #EF1607;
+        }
+    }
+}

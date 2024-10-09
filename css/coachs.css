@@ -1,0 +1,45 @@
+.coachs {
+    padding-top: 80px;
+    padding-bottom: 112px;
+    background-color: black;
+    .coachs--desc {
+        margin-left: 56px;
+        max-width: 531px;
+    }
+    .coachs--desc-header {
+        max-width: 259px;
+    }
+    .coachs--desc-header-title {
+        padding-top: 24px;
+    }
+    .coachs--desc-body {
+        padding-top: 154px;
+        padding-right: 40px;
+    }
+    .coachs--desc-body-name {
+        max-width: 239px;
+        border-right: 1px solid #EF1607;
+    }
+    .coachs--desc-body-title {
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    .coachs--desc-body-text {
+        padding-top: 21px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+    .coachs--desc-nav {
+        gap: 18px;
+    }
+    .coachs--img {
+        margin-right: 56px;
+        max-width: 552px;
+        max-height: 567px;
+        img {
+            max-width: 552px;
+            max-height: 567px;
+        }
+    }
+}

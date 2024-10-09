@@ -1,0 +1,35 @@
+.navigation {
+    position: fixed;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: transparent;
+    width: 100%;
+    z-index: 200;
+    #navbarText{
+        ul{
+            gap: 32px;
+        }
+    }
+    .navbar-brand {
+        font-family: "Unbounded";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49.6px;
+    }
+    .nav-link {
+        padding: 15px 0 15px 0;
+    }
+    .navigation-button {
+        background-color: #EF1607;
+        color: white;
+        padding: 15.5px 28px 15.5px 28px;
+        border-radius: 50px;
+        svg {
+            margin-left: 10px;
+        }
+    }
+    .navigation-button:hover {
+        background-color: rgb(239, 22, 7, 0.8);
+    }
+}

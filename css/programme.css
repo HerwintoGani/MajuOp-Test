@@ -1,0 +1,61 @@
+.programme {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: black;
+    /* height: 100vh; */
+    .programme--header {
+        padding-bottom: 56px;
+    }
+    .programme--header-title {
+        max-width: 470px;
+        padding-left: 56px;
+        padding-right: 0px;
+    }
+    .programme--header-desc {
+        margin-right: 56px;
+        max-width: 553px;
+    }
+    .swiper-slide {
+        height: 575px;
+        width: 479px;
+    }
+    .programme--swiper {
+        max-height: 575px;
+        padding-left: 56px;
+        .swiper-wrapper {
+            max-height: 575px;
+        }
+    }
+    .programme--swiper-content {
+        height: 575px;
+        width: 479px;
+        img {
+            position: absolute;
+            z-index: -1;
+            height: 575px;
+            width: 479px;
+        }
+        .programme--swiper-content-title {
+            padding: 0 32px 40px 32px;
+            margin: 0;
+            width: 415px;
+            z-index: 2;
+        }
+        .programme--swiper-content-desc {
+            margin: 0 32px 40px 32px;
+            width: 415px;
+            z-index: 2;
+        }
+    }
+    
+    .programme--swiper-content::before {
+        content: '';
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #000000 80.24%);
+        z-index: 1;
+    }
+}

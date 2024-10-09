@@ -1,0 +1,147 @@
+.text-white {
+    color: white;
+}
+.text-red {
+    color: #EF1607;
+}
+.text-gray {
+    color: #777777;
+}
+/* bootstrap override */
+.container-fluid{
+    padding-left: 56px;
+    padding-right: 56px;
+    /* max-width: 100%; */
+    position: relative;
+}
+h1 {
+    font-family: "Unbounded";
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+}
+h2 {
+    font-family: "Unbounded";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52.8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: "Unbounded";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #EF1607;
+}
+h4{
+    font-family: "Unbounded";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.76px;
+}
+
+.pulse-text-10 {
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.pulse-text-b5-10 {
+    font-family: "Unbounded";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.pulse-text-b-10 {
+    font-family: "Instrument Sans";
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.2px;
+    letter-spacing: 0.06em;
+}
+.pulse-text-11 {
+    font-family: "Unbounded";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.pulse-text-12{
+    font-family: "Unbounded";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.88px;
+    letter-spacing: 0.06em;
+}
+.pulse-text-14 {
+    font-family: "Instrument Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+.pulse-text-b-14 {
+    font-family: "Instrument Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.08px;
+    letter-spacing: 0.06em;
+}
+.pulse-text-b-16 {
+    font-family: "Instrument Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.52px;
+    letter-spacing: 0.02em;
+}
+.pulse-text-16 {
+    font-family: "Instrument Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.52px;
+    letter-spacing: 0.02em;
+}
+.pulse-text-20 {
+    font-family: "Instrument Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.pulse-text-b-24 {
+    font-family: "Instrument Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.28px;
+}
+.pulse-text-md {
+    font-family: "Unbounded";
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 65.72px;
+}
+.pulse-text-lg {
+    font-family: "Unbounded";
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 109.12px;
+}
+.pulse-text-idx {
+    font-family: "Instrument Sans";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.28px;
+    letter-spacing: 0.04em;
+    -webkit-text-stroke: 1px #EF1607;
+}
+
+.pulse-text-button {
+    font-family: "Unbounded";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.88px;
+    letter-spacing: 0.06em;
+}

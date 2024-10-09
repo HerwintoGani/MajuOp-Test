@@ -1,0 +1,80 @@
+.contact {
+    background-color: black;
+    padding: 112px;
+    
+    .contact--header{
+        max-width: 487px;
+    }
+    .contact--header-title {
+        padding-left: 0px;
+    }
+    .contact--header-title-text {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    .contact--header-desc {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 155px;
+    }
+    .contact--header-address, .contact--header-phone, .contact--header-email {
+        padding: 24px 20px 24px 0px;
+    }
+    .contact--header-phone{
+        border-top: 1px solid #F6F6F733;
+        border-bottom: 1px solid #F6F6F733;
+    }
+    .contact--body {
+        max-width: 553px;
+        .row {
+            gap: 16px 8px;
+        }
+    }
+    .contact--body-input {
+        max-width: 272.5px;
+        margin-bottom: 13px;
+    }
+    .contact--body-input-text {
+        margin-top: 10px;
+        padding: 19px 20px 19px 20px;
+        border-radius: 0px;
+    }
+    .contact--body-input-text:focus {
+        color: #EF1607;
+    }
+    .contact--body-input-text::placeholder {
+        color: #D0D1D1;
+    }
+    .contact--body-area {
+        margin-bottom: 4px;
+    }
+    .contact--body-input-textarea {
+        height: 161px;
+        margin-top: 10px;
+        padding: 20px;
+        border-radius: 0px;
+    }
+    .contact--body-input-textarea:focus {
+        color: #EF1607;
+    }
+    .contact--body-input-textarea::placeholder {
+        color: #D0D1D1;
+    }
+    .contact--body-check {
+    }
+    .contact--body-input-check {
+        margin-right: 12px;
+    }
+    .contact--body-check-text {
+        margin-bottom: 16px;
+    }
+    .contact--body-submit {
+        width: 100%;
+    }
+    .contact--body-submit-button {
+        width: 100%;
+        border-radius: 50px;
+        background-color: #EF1607;
+        padding: 20px;
+    }
+}
