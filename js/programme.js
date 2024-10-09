@@ -1,5 +1,10 @@
 const swiper = new Swiper('.programme--swiper', {
     slidesPerView: "auto",
-    spaceBetween: 24,  
+    spaceBetween: 12,  
+    breakpoints: {
+        992: {
+            spaceBetween:24
+        }
+    }
 });
   

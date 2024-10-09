@@ -7,10 +7,16 @@
         max-width: 774px;
         position: relative;
         z-index: 2;
+        @media (max-width: 992px) {
+            padding-top: 176px;
+        }
     }
     .hero--body-title {
         padding-bottom: 32px;
         z-index: 2;
+        @media (max-width: 992px) {
+            padding-bottom: 20px;
+        }
     }
     .hero--body-desc {
         max-width: 442px;
@@ -22,6 +28,9 @@
         .row {
             margin-left: -56px;
             margin-right: -56px;
+        }
+        @media (max-width: 992px) {
+            display: none;
         }
     }
     .hero--footer-image {
@@ -41,6 +50,31 @@
     .hero--footer-text-desc {
         padding-top: 32px;
         max-width: 400px;
+    }
+    .hero--footer-mobile {
+        padding-top: 21px;
+        z-index: 2;
+        .row {
+            margin-left: -24px;
+            margin-right: -24px;
+        }
+    }
+    .hero--footer-mobile-text {
+        background-color: rgba(255,255,255,0.1);
+        backdrop-filter: blur(16px);
+        padding: 24px;
+        z-index: 2;
+    }
+    .hero--footer-mobile-text-desc {
+        padding-top: 24px;
+    }
+    .hero--footer-mobile-text-nav {
+        margin-top: 24px;
+        height: 1px;
+        z-index: 2;
+        .progress-bar {
+            background-color: #EF1607;
+        }
     }
 }
 .hero::before{

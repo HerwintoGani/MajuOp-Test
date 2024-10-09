@@ -2,9 +2,16 @@
     padding-top: 80px;
     padding-bottom: 112px;
     background-color: black;
+    @media (max-width: 992px) {
+        padding-top: 40px;
+        padding-bottom: 56px;
+    }
     .coachs--desc {
         margin-left: 56px;
         max-width: 531px;
+        @media (max-width: 992px) {
+            margin-left: 0px;
+        }
     }
     .coachs--desc-header {
         max-width: 259px;
@@ -15,6 +22,9 @@
     .coachs--desc-body {
         padding-top: 154px;
         padding-right: 40px;
+        @media (max-width: 992px) {
+            display: none;
+        }
     }
     .coachs--desc-body-name {
         max-width: 239px;
@@ -30,8 +40,24 @@
         padding-right: 0px;
         padding-bottom: 40px;
     }
+    
+    .coachs--desc-body-mobile {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+    .coachs--desc-body-mobile-text {
+        padding-top: 21px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .coachs--desc-nav {
         gap: 18px;
+        @media (max-width: 992px) {
+            display: none !important;
+        }
     }
     .coachs--img {
         margin-right: 56px;
@@ -40,6 +66,21 @@
         img {
             max-width: 552px;
             max-height: 567px;
+        }
+        @media (max-width: 992px) {
+            display: none !important;
+        }
+    }
+    .coachs--img-mobile {
+        @media (min-width: 992px) {
+            display: none !important;
+        }
+    }
+    .coachs--img-mobile-header {
+        margin-top: 64px;
+        width: 85vw;
+        img {
+            width: 85vw;
         }
     }
 }
